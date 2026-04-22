@@ -5,9 +5,12 @@ body {
 
 .navbar{
     display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: rgba(245, 245, 220, 0.537);
 }
 .navbar div{
-    width: 25%;
+    width: 19%;
     margin: 2px;
 }
 .navbar div a{
@@ -17,4 +20,36 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+.header
+{
+    display: block;
+    height: 12vh;
+    background-color: rgb(203, 239, 239);
+}
+
+.width100
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+    
+.height60
+{
+    height: 90vh;
+}
+.descripton
+{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+.image
+{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
 }
