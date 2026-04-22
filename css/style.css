@@ -52,11 +52,9 @@ body {
 {
     width: 40%;
     height: 100%;
-   
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 .image
 {
@@ -65,9 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
-
 .card
 {
     height: 67%;
@@ -82,12 +78,9 @@ body {
     text-align: justify;
     color: #333333;
 } 
-
 .imgPng
 {
-   
     z-index: 67;
-    
 }
 .contaner
 {
@@ -101,7 +94,6 @@ body {
     height: 10px;
     position: absolute;
 }
-
 .firstdot
 {
     top:67%;
@@ -119,7 +111,6 @@ body {
     top: 20%;
     left: 50%;
 }
-
 .skrynnik
 {
     position: absolute;
@@ -130,11 +121,24 @@ body {
      padding: 15px;
     text-align: justify;
     color: #333333;
-    
 }
-
 .dot:hover > .skrynnik
 {
-    
     z-index: 67;
+}
+.investments{
+    margin-top: 250px;
+    position: relative;
+}
+.card h1{
+    text-align: center;
+}
+.cardd{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 3px solid rgba(147,173,215,0.75);
 }
