@@ -3,7 +3,7 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
+    overflow:hidden;
 }
 .bgimage{
     background-image: url("../img/background.jpg");
@@ -28,6 +28,9 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
+}
+.navbar div a:hover {
+    background-color: rgb(236, 236, 238);
 }
 .header
 {
@@ -70,9 +73,9 @@ body {
     height: 67%;
     width: 47%;
     margin: 7rem;
-    background-color: rgba(224, 224, 224, 0.849);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
-    border: 3px solid rgba(147,173,215,1);
+    border: 3px solid rgba(147,173,215,0.75);
 }
 .card p {
     margin: 15px;
@@ -90,7 +93,7 @@ body {
 {
     position:absolute;
 }
-.tocha
+.dot
 {
     background-color: red;
     border-radius: 50%;
@@ -99,20 +102,39 @@ body {
     position: absolute;
 }
 
-.pervatocha
+.firstdot
 {
     top:67%;
     left:46%;
 }
-.ftorotocha{
+.seconddot{
     top: 50%;
     left: 70%;
 }
-.tretetocha{
+.thirddot{
     top: 70%;
     left: 70%;
 }
-.chetvotocha{
+.fourthdot{
     top: 20%;
     left: 50%;
+}
+
+.skrynnik
+{
+    position: absolute;
+    z-index: -67;
+    width: 5000%;
+    height: 2500%;
+    background-color: rgb(214, 226, 241);
+     padding: 15px;
+    text-align: justify;
+    color: #333333;
+    
+}
+
+.dot:hover > .skrynnik
+{
+    
+    z-index: 67;
 }
