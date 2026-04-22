@@ -1,13 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 body {
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
 }
-
+.bgimage{
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
     width: 80%;
-    background-color: rgba(245, 245, 220, 0.537);
+    background-color: rgba(147,173,215,1);
 }
 .navbar div{
     width: 19%;
@@ -16,27 +23,24 @@ body {
 .navbar div a{
     display: block;
     padding: 10px;
-    background-color: blue;
-    color: white;
+    background-color: rgba(240,246,255,1);
+    color: black;
     text-align: center;
     text-decoration: none;
+    border-radius: 12px;
 }
-
 .header
 {
-    display: block;
+    display: flex;
     height: 12vh;
-    background-color: rgb(203, 239, 239);
+    background-color: rgba(194, 208, 250, 1)
 }
-
 .width100
 {
     display: flex;
     justify-content: space-around;
     width: 100vw;
 }
-
-    
 .height60
 {
     height: 90vh;
@@ -45,11 +49,70 @@ body {
 {
     width: 40%;
     height: 100%;
-    background-color: red;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
 }
 .image
 {
     width: 60%;
     height: 100%;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card
+{
+    height: 67%;
+    width: 47%;
+    margin: 7rem;
+    background-color: rgba(224, 224, 224, 0.849);
+    border-radius: 12px;
+    border: 3px solid rgba(147,173,215,1);
+}
+.card p {
+    margin: 15px;
+    text-align: justify;
+    color: #333333;
+} 
+
+.imgPng
+{
+   
+    z-index: 67;
+    
+}
+.contaner
+{
+    position:absolute;
+}
+.tocha
+{
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.pervatocha
+{
+    top:67%;
+    left:46%;
+}
+.ftorotocha{
+    top: 50%;
+    left: 70%;
+}
+.tretetocha{
+    top: 70%;
+    left: 70%;
+}
+.chetvotocha{
+    top: 20%;
+    left: 50%;
 }
